@@ -24,7 +24,7 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // access to the controller file and url routes
-var routes = require("./controllers/burgersController.js");
+var routes = require("./controllers/burgers_controllers.js");
 app.use("/", routes);
 app.use("/update", routes);
 app.use("/create", routes);
