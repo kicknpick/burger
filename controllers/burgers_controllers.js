@@ -19,7 +19,7 @@ router.get("/burgers", function(req, res){
 });
 
 // new burger post route
-router.post("/burgers/post", function(req, res){
+router.post("/burgers/create", function(req, res){
 	// from burgers.js ORM
 	burger.create(req.body.burger_name, function(data){
 		console.log(data);
