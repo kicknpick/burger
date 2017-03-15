@@ -5,7 +5,7 @@ var methodOverride = require("method-override");
 var exphbs = require("express-handlebars");
 
 // server for either heroku or local
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3306;
 
 // enabling express through variable app
 var app = express();
